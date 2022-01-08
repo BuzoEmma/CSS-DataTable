@@ -1,0 +1,98 @@
+body{
+    width: auto;
+    margin: 0, auto;
+    background-color: rgb(3, 22, 56);
+    color: wheat;
+    font-family: Arial;   
+    font-style: oblique;
+}
+
+.container-line{
+  border: 0.5px solid black;
+  margin-top: 50px;
+}
+
+.colomn-form{
+    width: 400px;
+}
+
+.colomn-form div{
+    display: inline-block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.colomn-form div .show-list {
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid ;
+    color: wheat;
+    width: 55px;
+    background-color: rgb(3, 22, 56);
+}
+.colomn-form .search-bar{
+    float: right;
+    font-style: italic;
+}
+
+.colomn-form input{
+    background-color: rgb(3, 22, 56);
+    outline: none;
+    border-radius: 50px;
+    border: 1px solid wheat;
+    width: 130px;
+    height: 20px;
+    color: wheat;
+}
+
+.colomn-form ::placeholder{ 
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+
+table, td, th, tr {
+    border: 1px solid black;
+    padding: 20px;
+    width: 80px;
+    height: 30px;
+    border-collapse: collapse;
+    
+}
+.colomn-table .btn-btn{
+   
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: -15px;
+    border: none;
+    
+}
+
+.colomn-table,  button{
+    width: 55px;
+    height: 30px;
+    margin: 1px;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+
+    
+}
+
+.colomn-table  .btn-btn .btn-1{
+    background-color: blueviolet;
+}
+
+.colomn-table  .btn-btn .btn-2{
+    background-color: rgb(243, 81, 7);
+}
+
+.colomn-table  .btn-btn a{
+    text-decoration: none;
+}
+
+.colomn-table img{
+    width: 60px;
+    height: 30px;
+    object-fit: contain;
+}
